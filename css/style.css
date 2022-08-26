@@ -1,0 +1,38 @@
+..menuhorizontal{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 30px;
+    margin-left: 550px;
+    align-content: center+       ;
+    }
+    .menuhorizontal ul{
+    list-style: none;
+    }
+    .menuhorizontal li{
+    width: 80px;
+    padding:0px;
+    margin: 0;
+    position: relative;
+    display: inline;
+    float: left;
+    border-left: #999999 thin solid;
+    }
+    .menuhorizontal li ul{
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    }
+    .menuhorizontal a{
+        display: block;
+        text-decoration: none;
+        padding: 7px;
+        background-color: #CCCCCC;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        }
+.menuhorizontal
